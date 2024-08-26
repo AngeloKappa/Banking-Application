@@ -1,0 +1,21 @@
+What are Controllers?
+Controllers in Spring Boot are Java classes responsible for handling incoming HTTP
+requests and returning an appropriate response. They act as intermediaries between the client
+(usually a web browser or a mobile app) and the application’s business logic.
+
+The Role of Controllers in Spring Boot
+Controllers serve as the entry point for requests to your application.
+They receive requests, process the necessary data, and determine the appropriate response.
+This can include returning HTML pages, JSON data for APIs, or even redirecting to other URLs.
+
+Handling Different Types of Requests
+
+Handling GET Requests
+GET requests are used to retrieve data from the server.  the `@PathVariable` annotation
+is used to extract the `id` from the URL path.
+
+Handling POST Requests
+POST requests are used to send data to the server.
+
+Handling PUT and DELETE Requests
+PUT requests are used to update existing data, while DELETE requests are used to remove data.

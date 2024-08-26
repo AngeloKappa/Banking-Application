@@ -1,0 +1,6 @@
+A Data Transfer Object (DTO) is a design pattern used to transfer
+data between different parts of an application, often between the
+client and server layers in a software system. The primary purpose
+of a DTO is to encapsulate the data and move it
+efficiently across the network or between layers of an application
+without exposing the underlying data model or entities.

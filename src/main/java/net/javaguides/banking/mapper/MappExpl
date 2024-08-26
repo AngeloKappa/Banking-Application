@@ -1,0 +1,6 @@
+The AccountMapper class is responsible for converting between the Account entity
+and the AccountDto (Data Transfer Object). This is useful because it helps
+separate the concerns of your application by ensuring that your service and
+controller layers don't have to deal directly with the database entities,
+which might contain additional information or relationships that aren't
+needed in the response.
